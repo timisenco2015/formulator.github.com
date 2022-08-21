@@ -33,7 +33,7 @@
 .stepper .nav-tabs > li.active:last-child .round-tab {
   background: #34bc9b;
 }
-.stepper .nav-tabs > li.active:last-child .round-tab::after {
+.stepper .nav-tabs .error> li.active:last-child .round-tab::after {
   content: '✔';
   color: #fff;
   position: absolute;
