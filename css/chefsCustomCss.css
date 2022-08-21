@@ -33,7 +33,7 @@
 .stepper .nav-tabs > li.active:last-child .round-tab {
   background: #34bc9b;
 }
-.stepper .nav-tabs .error> li.active:last-child .round-tab::after {
+.stepper .nav-tabs > li.active:last-child .round-tab::after {
   content: '✔';
   color: #fff;
   position: absolute;
@@ -81,11 +81,11 @@
   font-size: 14px;
   
 }
-.stepper .completed .round-tab {
-  background: #34bc9b;
+.stepper .error .round-tab {
+  background: #FFBABA;
 }
 .stepper .completed .round-tab::after {
-  content: '✔';
+  content: '[x]';
   color: #fff;
   position: absolute;
   left: 0;
