@@ -27,7 +27,7 @@
 }
 
 .stepper .nav-tabs > li.completed::after {
-  background: #34bc9b;
+  background: purple;
 }
 
 .stepper .nav-tabs > li.active:last-child .round-tab {
@@ -91,7 +91,7 @@
   border: 2px solid #FFBABA;
 }
 .stepper .completed .round-tab::after {
-  background: #FFBABA;
+  
   content: '[x]';
   color: #fff;
   position: absolute;
