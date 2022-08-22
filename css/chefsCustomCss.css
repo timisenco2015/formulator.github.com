@@ -81,9 +81,11 @@
   font-size: 14px;
   
 }
+.stepper .completed .round-tab > p {
+  display:none;
+}
 .stepper .completed .round-tab {
   background: #fff;
-  display:none
 }
 .stepper .completed .round-tab::after {
   content: '[x]';
