@@ -75,7 +75,7 @@
   
 }
 
-.stepper .error .round-tab > span {
+.stepper .errors .round-tab > span {
   display:none;
 }
 
@@ -83,7 +83,7 @@
   display:none;
 }
 
-.stepper .error .round-tab {
+.stepper .errors .round-tab {
   background: #fff;
 }
 
@@ -102,7 +102,7 @@
   display: block;
 }
 
-.stepper .error .round-tab::after {
+.stepper .errors .round-tab::after {
   content: '[x]';
   color: #F20000;
   position: absolute;
