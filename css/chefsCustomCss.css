@@ -83,9 +83,7 @@
   background: #ffffff;
 }
 
-.stepper .completed .round-tab {
-  background: #34bc9b;
-}
+
 
 .stepper .completed .round-tab::after {
   content: '✔';
