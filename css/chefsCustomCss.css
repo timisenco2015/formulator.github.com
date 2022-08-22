@@ -87,7 +87,7 @@
   
 }
 
-.stepper .completed .round-tab > p {
+.stepper .completed .round-tab > span {
   display:none;
 }
 .stepper .completed .round-tab {
