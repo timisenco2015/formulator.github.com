@@ -75,13 +75,34 @@
   
 }
 
+.stepper .error .round-tab > span {
+  display:none;
+}
+
 .stepper .completed .round-tab > span {
   display:none;
 }
-.stepper .completed .round-tab {
+
+.stepper .error .round-tab {
   background: #fff;
 }
+
+.stepper .completed .round-tab {
+  background: #34bc9b;
+}
+
 .stepper .completed .round-tab::after {
+  content: '✔';
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 0;
+  display: block;
+}
+
+.stepper .error .round-tab::after {
   content: '[x]';
   color: #F20000;
   position: absolute;
