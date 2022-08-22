@@ -30,9 +30,6 @@
   background: #34bc9b;
 }
 
-.stepper .nav-tabs > li.active:last-child .round-tab {
-  background: #34bc9b;
-}
 
 .stepper .nav-tabs [data-toggle='tab'] {
   width: 25px;
