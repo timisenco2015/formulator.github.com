@@ -27,6 +27,10 @@
 }
 
 .stepper .nav-tabs > li.completed::after {
+  background: #FF9494;
+}
+
+.stepper .nav-tabs > li.error::after {
   background: purple;
 }
 
@@ -82,8 +86,8 @@
   
 }
 .stepper .completed .round-tab {
-  background: #FFBABA;
-  border: 2px solid #FFBABA;
+  background: #FF9494;
+  border: 2px solid #FF9494;
 }
 
 .stepper .error .round-tab {
