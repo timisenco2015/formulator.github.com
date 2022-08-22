@@ -85,7 +85,13 @@
   background: #FFBABA;
   border: 2px solid #FFBABA;
 }
+
+.stepper .error .round-tab {
+  background: #34bc9b;
+  border: 2px solid #FFBABA;
+}
 .stepper .completed .round-tab::after {
+  background: #FFBABA;
   content: '[x]';
   color: #fff;
   position: absolute;
