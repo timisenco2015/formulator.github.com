@@ -30,6 +30,10 @@
   background: #34bc9b;
 }
 
+.stepper .nav-tabs > li.errors::after {
+  background: #34bc9b;
+}
+
 
 .stepper .nav-tabs [data-toggle='tab'] {
   width: 25px;
