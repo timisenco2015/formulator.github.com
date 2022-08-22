@@ -33,16 +33,7 @@
 .stepper .nav-tabs > li.active:last-child .round-tab {
   background: #34bc9b;
 }
-.stepper .nav-tabs > li.active:last-child .round-tab::after {
-  content: '[x]';
-  color: #F20000;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 0;
-  display: block;
-}
+
 .stepper .nav-tabs [data-toggle='tab'] {
   width: 25px;
   height: 25px;
