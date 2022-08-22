@@ -27,18 +27,14 @@
 }
 
 .stepper .nav-tabs > li.completed::after {
-  background: #FF9494;
-}
-
-.stepper .nav-tabs > li.error::after {
-  background: purple;
+  background: #34bc9b;
 }
 
 .stepper .nav-tabs > li.active:last-child .round-tab {
   background: #34bc9b;
 }
 .stepper .nav-tabs > li.active:last-child .round-tab::after {
-  content: '[x]';
+  content: '✔';
   color: #fff;
   position: absolute;
   left: 0;
@@ -86,18 +82,11 @@
   
 }
 .stepper .completed .round-tab {
-  background: #FF9494;
-  border: 2px solid #FF9494;
-}
-
-.stepper .error .round-tab {
   background: #34bc9b;
-  border: 2px solid #FFBABA;
 }
 .stepper .completed .round-tab::after {
-  
   content: '[x]';
-  color: #fff;
+  color: #FF9494;
   position: absolute;
   left: 0;
   right: 0;
