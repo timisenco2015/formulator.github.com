@@ -26,6 +26,14 @@
   width: auto;
 }
 
+.stepper .nav-tabs > li.errors::after {
+  background: #ffffff;
+}
+
+.stepper .nav-tabs > li.completed::after {
+  background: #34bc9b;
+}
+
 
 .stepper .nav-tabs [data-toggle='tab'] {
   width: 25px;
