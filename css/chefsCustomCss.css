@@ -86,7 +86,7 @@
 }
 .stepper .completed .round-tab::after {
   content: '[x]';
-  color: #fff;
+  color: #ff0000;
   position: absolute;
   left: 0;
   right: 0;
