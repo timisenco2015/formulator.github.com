@@ -83,6 +83,7 @@
 }
 .stepper .completed .round-tab {
   background: #fff;
+  display:none
 }
 .stepper .completed .round-tab::after {
   content: '[x]';
