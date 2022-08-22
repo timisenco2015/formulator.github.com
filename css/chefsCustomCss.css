@@ -87,7 +87,7 @@
   display:none;
 }
 
-.stepper .errors .round-tab {
+.stepper>.errors>.round-tab {
   background: #ffffff;
 }
 
