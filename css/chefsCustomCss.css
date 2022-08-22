@@ -87,13 +87,15 @@
   display:none;
 }
 
-.stepper > .completed > .round-tab {
+.stepper>.errors>.round-tab {
+  background: #ffffff;
+}
+
+
+.stepper >.completed >.round-tab {
   background: #34bc9b;
 }
 
-.stepper > .errors > .round-tab {
-  background: #ffffff;
-}
 
 
 
