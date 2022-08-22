@@ -105,6 +105,7 @@
 .stepper .errors .round-tab::after {
   content: '[x]';
   color: #F20000;
+  background: #ffffff;
   position: absolute;
   left: 0;
   right: 0;
