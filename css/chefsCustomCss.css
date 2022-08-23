@@ -79,7 +79,11 @@
   
 }
 
-.stepper .round-tab > span {
+.stepper .active .round-tab > span {
+  display:flex;
+}
+
+.stepper .disabled .round-tab > span {
   display:flex;
 }
 
