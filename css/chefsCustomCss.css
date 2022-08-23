@@ -80,19 +80,19 @@
 }
 
 .stepper .active .round-tab > span {
-  display:flex;
+  visibility: visible;
 }
 
 .stepper .disabled .round-tab > span {
-  display:flex;
+  visibility: visible;
 }
 
 .stepper .errors .round-tab > span {
-  display:none;
+  visibility: hidden;
 }
 
 .stepper .completed .round-tab > span {
-  display:none;
+  visibility: hidden;
 }
 
 .stepper .errors .round-tab {
