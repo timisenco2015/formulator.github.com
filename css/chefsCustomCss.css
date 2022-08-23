@@ -79,6 +79,10 @@
   
 }
 
+.stepper .round-tab > span {
+  display:flex;
+}
+
 .stepper .errors .round-tab > span {
   display:none;
 }
