@@ -81,12 +81,12 @@
 
 .stepper .active .round-tab > span {
   visibility: visible;
-  color: red;
+  
 }
 
 .stepper .disabled .round-tab > span {
   visibility: visible;
-  color: red;
+  
 }
 
 .stepper .errors .round-tab > span {
