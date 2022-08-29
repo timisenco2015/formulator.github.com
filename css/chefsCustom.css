@@ -9,17 +9,11 @@
 
 .stepper .nav-tabs > li {
   width: 25%;
+  position: relative;
   display: flex;
   flex-direction: column;
   gap:60px;
   
-}
-
-.stepper .nav-tabs > li >span {
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
 }
 
 
