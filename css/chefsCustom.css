@@ -18,7 +18,7 @@
   align-content: center;
   align-self: center;
 }
-.stepper .nav-tabs > li >span:first-child:not(:last-child)::after {
+.stepper .nav-tabs > li:not(:last-child) > span:first-child::after {
   content: '';
   position: absolute;
   background: #f1f1f1;
