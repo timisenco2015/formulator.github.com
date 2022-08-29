@@ -12,8 +12,7 @@
   
 }
 
-.stepper .nav-tabs > li > div {
-  background-color: yellow;
+.stepper .nav-tabs > li > a {
   justify-content: center;
   align-items: center;
 }
