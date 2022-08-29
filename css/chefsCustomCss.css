@@ -9,6 +9,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .stepper .nav-tabs > li:not(:last-child)::after {
   content: '';
