@@ -63,7 +63,7 @@
 .stepper .round-tab {
   width: 35px;
   height: 35px;
-  line-height: 30px;
+  line-height: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
