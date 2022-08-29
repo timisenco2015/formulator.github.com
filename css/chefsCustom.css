@@ -15,6 +15,13 @@
   
 }
 
+.stepper .nav-tabs > li >span {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
 
 .stepper .nav-tabs > li:not(:last-child) > span::after {
   content: '';
