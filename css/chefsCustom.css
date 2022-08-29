@@ -8,7 +8,7 @@
   width: 30%;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .stepper .nav-tabs > li:not(:last-child)::after {
   content: '';
