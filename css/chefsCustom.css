@@ -5,12 +5,20 @@
 }
 
 .stepper .nav-tabs > li {
-  width: 30%;
+  width: 25%;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  
 }
-.stepper .nav-tabs > li:not(:last-child)::after {
+
+.stepper .nav-tabs > li >span:first-child {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+.stepper .nav-tabs > li >span:first-child:not(:last-child)::after {
   content: '';
   position: absolute;
   background: #f1f1f1;
@@ -22,15 +30,15 @@
   z-index: 1;
 }
 
-.stepper .nav-tabs > li:last-child {
+.stepper .nav-tabs > li:last-child >span:first-child {
   width: auto;
 }
 
-.stepper .nav-tabs > li.completed::after {
+.stepper .nav-tabs > li>span:first-child.completed::after {
   background: #34bc9b;
 }
 
-.stepper .nav-tabs > li.errors::after {
+.stepper .nav-tabs > li>span:first-child.errors::after {
   background: #34bc9b;
 }
 
