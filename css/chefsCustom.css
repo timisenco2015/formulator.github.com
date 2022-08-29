@@ -28,7 +28,7 @@
   z-index: 1;
 }
 
-.stepper .nav-tabs > li:last-child > span {
+.stepper .nav-tabs > li:last-child > span::after {
   width: auto;
 }
 
