@@ -9,10 +9,9 @@
 
 .stepper .nav-tabs > li {
   width: 25%;
-  position: relative;
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap:40px;
   
 }
 
