@@ -30,7 +30,7 @@
   z-index: 1;
 }
 
-.stepper .nav-tabs > li:last-child >span:first-child {
+.stepper .nav-tabs > li:last-child >span:first-child::after {
   width: auto;
 }
 
