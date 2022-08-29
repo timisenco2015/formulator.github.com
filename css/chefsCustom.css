@@ -1,11 +1,7 @@
-.stepper{
-  margin-top:15px;
-  margin-bottom:15px;
-}
 .stepper .nav-tabs {
   display: flex;
   flex-direction:row;
- 
+
 }
 
 .stepper .nav-tabs > li {
@@ -24,6 +20,8 @@
   display: block;
   width: 100%;
   height: 5px;
+  top: 8px;
+ 
   z-index: 1;
 }
 
