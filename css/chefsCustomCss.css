@@ -9,6 +9,11 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  
+}
+
+.stepper .nav-tabs > li > div:first-child {
+  background-color: yellow;
   justify-content: center;
   align-items: center;
 }
