@@ -16,7 +16,7 @@
 .stepper .nav-tabs > li:not(:last-child) > span::after {
   content: '';
   position: absolute;
-  background: red;
+  background: #f1f1f1;
   display: block;
   width: 100%;
   height: 5px;
@@ -29,11 +29,11 @@
   width: auto;
 }
 
-.stepper .nav-tabs > li> span.completed::after {
+.stepper .nav-tabs > li > span.completed::after {
   background: #34bc9b;
 }
 
-.stepper .nav-tabs > li>span:first-child.errors::after {
+.stepper .nav-tabs > li > span.errors::after {
   background: #34bc9b;
 }
 
