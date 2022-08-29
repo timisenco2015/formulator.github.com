@@ -12,13 +12,8 @@
   
 }
 
-.stepper .nav-tabs > li >span:first-child {
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
-}
-.stepper .nav-tabs > li:not(:last-child) > span:first-child::after {
+
+.stepper .nav-tabs > li:not(:last-child) > span::after {
   content: '';
   position: absolute;
   background: red;
@@ -30,11 +25,11 @@
   z-index: 1;
 }
 
-.stepper .nav-tabs > li:last-child >span:first-child::after {
+.stepper .nav-tabs > li:last-child > span {
   width: auto;
 }
 
-.stepper .nav-tabs > li>span:first-child.completed::after {
+.stepper .nav-tabs > li> span.completed::after {
   background: #34bc9b;
 }
 
