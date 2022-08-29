@@ -12,7 +12,7 @@
   
 }
 
-.stepper .nav-tabs > li > div:first-child {
+.stepper .nav-tabs > li > div {
   background-color: yellow;
   justify-content: center;
   align-items: center;
