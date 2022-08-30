@@ -14,8 +14,8 @@
   text-align: center;
 }
 .stepperss .c-stepper__item:before {
-  font-size: 18px;
-  
+  font-size: 14px;
+  content: '✔';
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -24,9 +24,9 @@
   display: flex;
   width: var(--circle-size);
   height: var(--circle-size);
-  border-radius: 100%;
-  border: 2px solid #34bc9b;
+  border-radius: 50%;
   background: #34bc9b;
+  color: #fff;
   opacity: 0.5;
   margin: 0 auto 1rem;
 }
