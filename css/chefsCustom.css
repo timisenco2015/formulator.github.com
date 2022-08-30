@@ -24,15 +24,11 @@
   height: var(--circle-size);
   border-radius: 50%;
   border: 2px solid #34bc9b;
+  color: red;
   opacity: 0.5;
   margin: 0 auto 1rem;
 }
 
-.stepperss .completed .c-stepper__item:before {
-
-  font-size: 14px;
-  content: '✔';
-}
 .stepperss .c-stepper__item:not(:last-child):after {
   content: "";
   position: relative;
