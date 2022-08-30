@@ -58,6 +58,9 @@
   position: relative;
   padding-top: 50px;
 }
+.stepper .text-container {
+  left: 30;
+}
 .stepper .round-tab {
   width: 35px;
   height: 35px;
