@@ -66,6 +66,17 @@
   background:#34bc9b;
 }
 
+
+.stepperss .c-stepper > li.error::before {
+  content:'\2718';
+  background:#F20000;
+  color:#fff;
+}
+
+.stepperss .c-stepper > li.error::after {
+  background:#F20000;
+}
+
 .stepperss .c-stepper__title {
   font-weight: bold;
   font-size: clamp(1rem, 4vw, 1.25rem);
