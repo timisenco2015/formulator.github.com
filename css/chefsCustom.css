@@ -36,8 +36,8 @@
 
 
 .stepper .nav-tabs [data-toggle='tab'] {
-  width: 25px;
-  height: 25px;
+  width: 85px;
+  height: 85px;
   margin: 20px auto;
   margin-right: 0px;
   border-radius: 100%;
@@ -46,7 +46,7 @@
   color: #f1f1f1;
 }
 .stepper .nav-tabs [data-toggle='tab']:hover {
-  background: transparent;
+  background: red;
   border: none;
 }
 .stepper .nav-tabs > .active > [data-toggle='tab'], .stepper .nav-tabs > .active > [data-toggle='tab']:hover, .stepper .nav-tabs > .active > [data-toggle='tab']:focus {
@@ -59,8 +59,8 @@
   padding-top: 50px;
 }
 .stepper .round-tab {
-  width: 90px;
-  height: 90px;
+  width: 35px;
+  height: 35px;
   line-height: 30px;
   display: flex;
   justify-content: center;
@@ -69,8 +69,8 @@
   align-content: center;
   text-align: center;
   border-radius: 25px;
-  background: red;
-  border: 2px solid red;
+  background: #fff;
+  border: 2px solid #34bc9b;
   color: #34bc9b;
   z-index: 2;
   position: absolute;
