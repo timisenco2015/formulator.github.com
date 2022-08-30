@@ -40,6 +40,12 @@
   order: -1;
 }
 
+.stepperss .c-stepper > li.completed::before {
+  content:'\2714';
+  background:#34bc9b;
+  color:#fff;
+}
+
 .stepperss .c-stepper > li.completed::after {
   background:#34bc9b;
 }
