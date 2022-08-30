@@ -24,7 +24,7 @@
   display: flex;
   width: var(--circle-size);
   height: var(--circle-size);
-  border-radius: 50%;
+  border-radius: 100%;
   border: 2px solid #34bc9b;
   background: #fff;
   opacity: 0.5;
