@@ -11,7 +11,7 @@
   flex-direction: row;
 }
 
-.stepperss .nav-tabs > li.text-container::after {
+.stepperss .nav-tabs > li > div.text-container::after {
   content: 'GGGGGGGGG';
   position: absolute;
   top: 32px;
