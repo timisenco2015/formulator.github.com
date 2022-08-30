@@ -29,13 +29,6 @@
   margin: 0 auto 1rem;
 }
 
-.stepperss .c-stepper > li.completed::before {
-  content:'\2714';
-  background:#34bc9b;
-  color:#fff;
-}
-
-
 .stepperss .c-stepper > li:not(:last-child)::after {
   content: "";
   position: relative;
@@ -45,6 +38,10 @@
   height: 2px;
   background-color: #f1f1f1;
   order: -1;
+}
+
+.stepperss .c-stepper > li.completed::after {
+  background:#34bc9b;
 }
 
 .stepperss .c-stepper__title {
