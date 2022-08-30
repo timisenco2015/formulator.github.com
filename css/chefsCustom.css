@@ -36,7 +36,7 @@
   width: calc(100% - var(--circle-size) - var(--spacing) * 2);
   left: calc(50% + var(--circle-size) / 2 + var(--spacing));
   height: 2px;
-  background-color: #f1f1f1;
+  background-color: #e4e4e4;
   order: -1;
 }
 
@@ -45,15 +45,15 @@
   background:#fff;
 }
 .stepperss .c-stepper > li.active::after{
-  background:#f1f1f1;
+  background:#e4e4e4;
 }
 
 .stepperss .c-stepper > li.disabled::before{
-  border: 2px solid #f1f1f1;
+  border: 2px solid #e4e4e4;
   background:#fff;
 }
 .stepperss .c-stepper > li.disabled::after{
-  background:#f1f1f1;
+  background:#e4e4e4;
 }
 
 .stepperss .c-stepper > li.completed::before {
