@@ -35,13 +35,13 @@
   top: calc(var(--circle-size) / 2);
   width: calc(100% - var(--circle-size) - var(--spacing) * 2);
   left: calc(50% + var(--circle-size) / 2 + var(--spacing));
-  height: 2px;
+  height: 4px;
   background-color: #e4e4e4;
   order: -1;
 }
 
 .stepperss .c-stepper > li.active::before{
-  border: 2px solid #34bc9b;
+  border: 3px solid #34bc9b;
   background:#fff;
 }
 .stepperss .c-stepper > li.active::after{
@@ -49,7 +49,7 @@
 }
 
 .stepperss .c-stepper > li.disabled::before{
-  border: 2px solid #e4e4e4;
+  border: 3px solid #e4e4e4;
   background:#fff;
 }
 .stepperss .c-stepper > li.disabled::after{
