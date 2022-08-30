@@ -7,13 +7,13 @@
   display: flex;
 }
 
-.stepperss .c-stepper__item {
+.stepperss .c-stepper > li {
   display: flex;
   flex-direction: column;
   flex: 1;
   text-align: center;
 }
-.stepperss .c-stepper__item:before {
+.stepperss .c-stepper > li::before {
   content:"";
   justify-content: center;
   align-items: center;
@@ -29,14 +29,14 @@
   margin: 0 auto 1rem;
 }
 
-.stepperss .c-stepper__item .completed:before {
+.stepperss .c-stepper > li.completed::before {
   content:'\2714';
   background:#34bc9b;
   color:#fff;
 }
 
 
-.stepperss .c-stepper__item:not(:last-child):after {
+.stepperss .c-stepper > li:not(:last-child)::after {
   content: "";
   position: relative;
   top: calc(var(--circle-size) / 2);
