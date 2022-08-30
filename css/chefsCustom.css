@@ -12,7 +12,7 @@
 }
 
 .stepperss .nav-tabs > li.text-container::after {
-  content: '';
+  content: 'GGGGGGGGG';
   position: absolute;
   top: 32px;
   background: red;
