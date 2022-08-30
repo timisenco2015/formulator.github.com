@@ -35,7 +35,7 @@
   width: calc(100% - var(--circle-size) - var(--spacing) * 2);
   left: calc(50% + var(--circle-size) / 2 + var(--spacing));
   height: 2px;
-  background-color: #e0e0e0;
+  background-color: #f1f1f1;
   order: -1;
 }
 
