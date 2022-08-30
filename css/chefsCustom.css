@@ -4,11 +4,11 @@
 
 }
 
-.stepper .nav-tabs > li > a {
+.stepper .nav-tabs > li {
   width: 30%;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .stepper .nav-tabs > li:not(:last-child)::after {
   content: '';
@@ -36,8 +36,8 @@
 
 
 .stepper .nav-tabs [data-toggle='tab'] {
-  width: 85px;
-  height: 85px;
+  width: 25px;
+  height: 25px;
   margin: 20px auto;
   border-radius: 100%;
   border: none;
@@ -45,7 +45,7 @@
   color: #f1f1f1;
 }
 .stepper .nav-tabs [data-toggle='tab']:hover {
-  background: red;
+  background: transparent;
   border: none;
 }
 .stepper .nav-tabs > .active > [data-toggle='tab'], .stepper .nav-tabs > .active > [data-toggle='tab']:hover, .stepper .nav-tabs > .active > [data-toggle='tab']:focus {
