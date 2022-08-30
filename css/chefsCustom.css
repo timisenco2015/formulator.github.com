@@ -26,7 +26,7 @@
   height: var(--circle-size);
   border-radius: 100%;
   border: 2px solid #34bc9b;
-  background: #fff;
+  background: #34bc9b;
   opacity: 0.5;
   margin: 0 auto 1rem;
 }
