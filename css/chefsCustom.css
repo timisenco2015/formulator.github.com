@@ -11,10 +11,9 @@
   flex-direction: row;
 }
 
-.stepperss .nav-tabs > li > div.text-container::after {
-  content: 'GGGGGGGGG';
+.stepperss .nav-tabs .progressBar::after {
+  content: '';
   position: absolute;
-  top: 32px;
   background: red;
   display: block;
   width: 100%;
