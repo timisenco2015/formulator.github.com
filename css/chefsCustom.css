@@ -24,7 +24,7 @@
   width: var(--circle-size);
   height: var(--circle-size);
   border-radius: 50%;
-  border: 2px solid #34bc9b;
+  
   opacity: 0.5;
   margin: 0 auto 1rem;
 }
@@ -38,6 +38,22 @@
   height: 2px;
   background-color: #f1f1f1;
   order: -1;
+}
+
+.stepperss .c-stepper > li.active::before{
+  border: 2px solid #34bc9b;
+  background:#fff;
+}
+.stepperss .c-stepper > li.active::after{
+  background:#f1f1f1;
+}
+
+.stepperss .c-stepper > li.disabled::before{
+  border: 2px solid #f1f1f1;
+  background:#fff;
+}
+.stepperss .c-stepper > li.disabled::after{
+  background:#f1f1f1;
 }
 
 .stepperss .c-stepper > li.completed::before {
