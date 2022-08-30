@@ -11,7 +11,7 @@
   flex-direction: row;
 }
 
-.stepperss .nav-tabs > li.progressBarr::after {
+.stepperss .nav-tabs > li.text-container::after {
   content: '';
   background: red;
   display: block;
