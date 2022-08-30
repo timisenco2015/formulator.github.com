@@ -1,14 +1,13 @@
 .stepper .nav-tabs {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
 
 }
 
 .stepper .nav-tabs > li {
   width: 30%;
-  position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color:red;
 }
 .stepper .nav-tabs > li:not(:last-child)::after {
