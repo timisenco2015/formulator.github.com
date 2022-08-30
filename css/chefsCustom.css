@@ -16,7 +16,7 @@
 .stepperss .c-stepper__item:before {
   --size: 3rem;
   content: '✔';
-  display: block;
+  display: flex;
   width: var(--circle-size);
   height: var(--circle-size);
   border-radius: 50%;
