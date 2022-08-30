@@ -31,7 +31,7 @@
 
 .stepperss .c-stepper__item .completed:before {
   content:'\2714';
-  background: 2px solid #34bc9b;
+  background:#34bc9b;
   color:#fff;
 }
 
