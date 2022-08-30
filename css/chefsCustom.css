@@ -4,7 +4,7 @@
 
 }
 
-.stepper .nav-tabs > li {
+.stepper .nav-tabs > li > a {
   width: 30%;
   position: relative;
   display: flex;
