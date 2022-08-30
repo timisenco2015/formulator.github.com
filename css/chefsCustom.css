@@ -33,7 +33,7 @@
   font-size: 14px;
   content: '✔';
   background: #34bc9b;
-  color: #fff;
+  color: red;
 }
 .stepperss .c-stepper__item:not(:last-child):after {
   content: "";
@@ -42,13 +42,12 @@
   width: calc(100% - var(--circle-size) - var(--spacing) * 2);
   left: calc(50% + var(--circle-size) / 2 + var(--spacing));
   height: 2px;
-  background-color: #f1f1f1;
+  background-color: #e0e0e0;
   order: -1;
 }
 
 .stepperss .c-stepper__title {
   font-weight: bold;
-  color:#f1f1f1;
   font-size: clamp(1rem, 4vw, 1.25rem);
   margin-bottom: 0.5rem;
 }
