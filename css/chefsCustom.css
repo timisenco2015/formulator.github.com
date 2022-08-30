@@ -11,3 +11,15 @@
   flex-direction: row;
   background-color:red;
 }
+
+.stepperss .nav-tabs > li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  background: #f1f1f1;
+  display: block;
+  width: 100%;
+  height: 5px;
+  top: 32px;
+ 
+  z-index: 1;
+}
