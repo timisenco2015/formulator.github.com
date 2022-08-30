@@ -8,7 +8,7 @@
   width: 30%;
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .stepper .nav-tabs > li:not(:last-child)::after {
   content: '';
@@ -69,7 +69,7 @@
   align-content: center;
   text-align: center;
   border-radius: 25px;
-  background: #fff;
+  background: red;
   border: 2px solid #34bc9b;
   color: #34bc9b;
   z-index: 2;
