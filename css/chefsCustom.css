@@ -20,8 +20,8 @@
   width: var(--circle-size);
   height: var(--circle-size);
   border-radius: 50%;
-  background-color: lightgrey;
-  background-color: red;
+  background: #34bc9b;
+  color: #fff;
   opacity: 0.5;
   margin: 0 auto 1rem;
 }
