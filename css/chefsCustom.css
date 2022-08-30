@@ -86,9 +86,6 @@
   color:#e4e4e4;
 }
 
-.stepperss .c-stepper > li.completed > h3{
-  color:#34bc9b;
-}
 
 
 .stepperss .c-stepper > li.errors > p{
@@ -98,10 +95,6 @@
 
 .stepperss .c-stepper > li.disabled > p{
   color:#e4e4e4;
-}
-
-.stepperss .c-stepper > li.completed > p{
-  color:#34bc9b;
 }
 
 
