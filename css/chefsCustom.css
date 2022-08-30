@@ -1,22 +1,29 @@
-.stepperss .nav-tabs {
+.c-stepper {
   display: flex;
-  flex-direction: row;
-
+  flex-wrap: wrap;
 }
 
-.stepperss .nav-tabs > li {
-  width: 30%;
-  background: purple;
+.c-stepper__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.c-stepper__item:before {
+  --size: 3rem;
+  content: "";
   position: relative;
-  display: flex;
-  flex-direction: row;
+  z-index: 1;
+  display: block;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  margin: 1rem auto 0;
 }
 
-.stepperss .nav-tabs .progressBar::after {
-  content: '';
-  position:relative;
-  background: red;
-  width: 100%;
-  height: 5px;
-  z-index: 1;
+.c-stepper__item:not(:last-child):after {
+  content: "";
+  height: 2px;
+  background-color: #e0e0e0;
 }
