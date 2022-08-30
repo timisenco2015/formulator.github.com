@@ -78,25 +78,39 @@
 }
 
 .stepperss .c-stepper > li.errors > h3{
-  font-weight: bold;
-  font-size: clamp(1rem, 4vw, 1.25rem);
-  margin-bottom: 0.5rem;
+  color:#F20000;
 }
 
+
 .stepperss .c-stepper > li.disabled > h3{
-  font-weight: bold;
-  font-size: clamp(1rem, 4vw, 1.25rem);
-  margin-bottom: 0.5rem;
+  color:#e4e4e4;
 }
 
 .stepperss .c-stepper > li.completed > h3{
+  color:#34bc9b;
+}
+
+
+.stepperss .c-stepper > li.errors > p{
+  color:#F20000;
+}
+
+
+.stepperss .c-stepper > li.disabled > p{
+  color:#e4e4e4;
+}
+
+.stepperss .c-stepper > li.completed > p{
+  color:#34bc9b;
+}
+
+
+.stepperss .c-stepper__title{
   font-weight: bold;
   font-size: clamp(1rem, 4vw, 1.25rem);
   margin-bottom: 0.5rem;
   color:#34bc9b;
 }
-
-
 
 .stepperss .c-stepper__desc {
   color: grey;
