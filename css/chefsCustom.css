@@ -1,10 +1,10 @@
-.stepper .nav-tabs {
+.stepperss .nav-tabs {
   display: flex;
   flex-direction: row;
 
 }
 
-.stepper .nav-tabs > li {
+.stepperss .nav-tabs > li {
   width: 30%;
   position: relative;
   display: flex;
