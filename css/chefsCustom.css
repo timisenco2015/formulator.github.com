@@ -9,7 +9,6 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  background-color:red;
 }
 
 .stepperss .nav-tabs > li:not(:last-child)::after {
@@ -19,7 +18,6 @@
   display: block;
   width: 100%;
   height: 5px;
-  top: 32px;
- 
+  top: 2px;
   z-index: 1;
 }
