@@ -29,7 +29,7 @@
   margin: 0 auto 1rem;
 }
 
-.stepperss .c-stepper > li:not(:last-child)::after {
+.c-stepper > li:not(:last-child)::after {
   content: "";
   position: relative;
   top: calc(var(--circle-size) / 2);
@@ -40,71 +40,65 @@
   order: -1;
 }
 
-.stepperss .c-stepper > li.active::before{
+.c-stepper > li.active::before{
   border: 3px solid #34bc9b;
   background:#fff;
 }
-.stepperss .c-stepper > li.active::after{
+.c-stepper > li.active::after{
   background:#e4e4e4;
 }
 
-.stepperss .c-stepper > li.disabled::before{
+.c-stepper > li.disabled::before{
   border: 3px solid #e4e4e4;
   background:#fff;
 }
-.stepperss .c-stepper > li.disabled::after{
+.c-stepper > li.disabled::after{
   background:#e4e4e4;
 }
 
-.stepperss .c-stepper > li.completed::before {
+.c-stepper > li.completed::before {
   content:'\2714';
   background:#34bc9b;
   color:#fff;
 }
 
-.stepperss .c-stepper > li.completed::after {
+.c-stepper > li.completed::after {
   background:#34bc9b;
 }
 
-
-.stepperss .c-stepper > li.errors::before {
+.c-stepper > li.errors::before {
   content:'\2718';
   background:#F20000;
   color:#fff;
 }
 
-.stepperss .c-stepper > li.errors::after {
+.c-stepper > li.errors::after {
   background:#F20000;
 }
 
-.stepperss .c-stepper > li.errors > h3{
+.c-stepper > li.errors > h3{
   color:#F20000;
 }
 
-
-.stepperss .c-stepper > li.disabled > h3{
+.c-stepper > li.disabled > h3{
   color:#e4e4e4;
 }
 
-
-
-.stepperss .c-stepper > li.errors > p{
+.c-stepper > li.errors > p{
   color:#F20000;
 }
 
-
-.stepperss .c-stepper > li.disabled > p{
+.c-stepper > li.disabled > p{
   color:#e4e4e4;
 }
 
-
-.stepperss .c-stepper__title{
+.c-stepper__title{
   font-weight: bold;
   font-size: clamp(1rem, 4vw, 1.25rem);
   margin-bottom: 0.5rem;
 }
 
-.stepperss .c-stepper__desc {
+.c-stepper__desc {
   color: grey;
   font-size: clamp(0.85rem, 2vw, 1rem);
   padding-left: var(--spacing);
