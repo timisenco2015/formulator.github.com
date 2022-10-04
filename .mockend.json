@@ -1,4 +1,4 @@
-{
+{"addresses":{
   "description":"Sample addresses",
   "queryAddress":"",
   "results":[{
@@ -11,4 +11,5 @@
     "fullAddress":"60 Edward Street, 87 Avenue, Northwest, AB. T3H 07"
   }
 ]
+}
 }
