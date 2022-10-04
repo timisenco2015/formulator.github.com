@@ -1,5 +1,5 @@
 {"Address":{
-  "description":"Sample addresses",
+  "description":{"string":"Sample addresses"},
   "queryAddress":"",
   "results":[{
     "fullAddress":"516 Armitage Crescent, Sherwood Park, AB. T8H 0T7"
