@@ -1,0 +1,15 @@
+{
+  "status":200,
+  "description":"Sample addresses",
+  "queryAddress":"",
+  "results":[{
+    "fullAddress":"516 Armitage Crescent, Sherwood Park, AB. T8H 0T7"
+  },
+  {
+    "fullAddress":"47 Greensborough Bay, Edmonton, AB. T8H 0C7"
+  },
+  {
+    "fullAddress":"60 Edward Street, 87 Avenue, Northwest, AB. T3H 0H7"
+  }
+]
+}
